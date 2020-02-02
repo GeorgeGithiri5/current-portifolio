@@ -1,0 +1,126 @@
+.navbar{
+	background-color: #f2f2f2;
+}
+.navbar ul{
+	float: right;
+	text-decoration-style: none;
+	margin: 10px 8px;
+}
+.navbar ul li{
+	text-decoration-style: none;
+	margin: 10px 8px;
+	font-size: 20px;
+	border-bottom: 2px black solid;
+}
+.navbar-toggle{
+	width: 70px;
+}
+.bar{
+	border:5px solid black;
+	width: 40px;
+	margin: 0 auto;
+	padding: 0.5px;
+	display: flex;
+	flex-direction: row;
+}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social ul li a{
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+	font-size: 40px;
+}
+.social ul li i{
+
+}
+.banner h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/images.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.textBannner{
+	display: table-cell;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+.skills div h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.skills{
+	width: 70%;
+	background-color: black;
+	margin: 2px auto;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.About h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.About{
+	width: 70%;
+	background-color: #f2f2f2;
+	box-shadow: 2px 4px 5px 3px black;
+	margin: 5px auto;
+	color: #000;
+	padding: 10px;
+	border-radius: 10px;
+}
+.AboutContent{
+	border-left: 1px solid green;
+}
+.title{
+	padding: 20px;
+}
+.project{
+	width: 90%;
+	background-color: #f2f2f2;
+	box-shadow: 2px 4px 5px 3px black;
+	margin: 20px auto;
+	color: #000;
+	padding: 10px;
+	border-radius: 10px;
+}
+.project h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.border{
+	border-bottom: 2px solid green;
+	border-width: 70%;
+	padding: 4px;
+	margin-bottom: 2px;
+}
+.image-native{
+	width: 100%;
+}
+.contact{
+	width: 60%;
+	background-color: #f2f2f2;
+	box-shadow: 2px 4px 5px 3px black;
+	margin: 5px auto;
+	color: #000;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
